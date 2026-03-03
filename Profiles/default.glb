@@ -1,0 +1,12 @@
+# Katalon Execution Profile Configuration
+
+// Define the default profile
+Profile default {
+    // Default execution settings
+    execution {
+        // Profile-specific configurations
+        projectName = 'MyKatalonProject'
+        browserType = 'Chrome'
+        // more settings...
+    }
+}
