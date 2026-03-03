@@ -1,0 +1,10 @@
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+// Test Case: Landing Page Load Test
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+
+// Verify the page loads successfully
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DemoWebShop/h1_Welcome'), 10)
+
+WebUI.closeBrowser()
